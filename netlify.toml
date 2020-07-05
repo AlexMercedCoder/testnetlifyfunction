@@ -1,0 +1,10 @@
+[build]
+command = "npm run build"
+functions = "/lambda"
+publish = "/"
+
+[dev]
+targetPort = 9000
+publish = "/"
+command = "npm run dev"
+framework = "#custom"
